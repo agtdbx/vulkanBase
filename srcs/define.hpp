@@ -6,7 +6,7 @@
 /*   By: gugus <gugus@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/06 12:55:17 by aderouba          #+#    #+#             */
-/*   Updated: 2025/06/07 11:08:56 by gugus            ###   ########.fr       */
+/*   Updated: 2025/06/08 12:45:39 by gugus            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,15 +26,15 @@
 // Window defines
 # define WIN_TITLE "scop"
 # define ENGINE_TITLE "gvEngine"
-# define WIN_W 1600 // TODO: CHANGE TO FULL SCREEN
+# define WIN_W 1600
 # define WIN_H 900
 
 // Camera defines
 # define FOV 80.0f
 # define NEAR 0.1f
 # define FAR 1000.0f
-# define SPEED 3.0f // TODO Put it to 1
-# define SPRINT 5.0f // TODO Put it to x20
+# define SPEED 3.0f
+# define SPRINT 5.0f
 # define ROTATE 45.0f
 
 const int MAX_FRAMES_IN_FLIGHT = 2;
